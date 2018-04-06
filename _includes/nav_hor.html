@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container"><!-- <<< verwijder als je navigatie over de ganse breedte wenst -->
-        <a class="navbar-brand" href="#"> <img src="images/logo.png" width=50%></a>
+        <a id="navlogo" class="navbar-brand" href="#"> <img src="images/logo.png" width=50%></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,6 +9,7 @@
 
         <ul class="navbar-nav mr-auto">
         {%- for nav-item in site.data.navigation %}
+        
         
             {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}
             {%- if nav-item.folder %}
@@ -24,6 +25,10 @@
                         {{ nav-item.name }}
                     </a>
             </li>
+            
+            
+
+           
             {%- endif %}
 
         {%- endfor %}

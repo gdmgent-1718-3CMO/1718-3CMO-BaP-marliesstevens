@@ -6,7 +6,7 @@ body {
     font-size: $font-size-base;
     line-height: $lineheight-base;
     background-color: $body-bg;
-    color: $body-color;
+    color: #4a4a4a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,13 +21,16 @@ h1 {
 }
 h2 {
     font-weight: $font-weight-light;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 2rem 0 1rem;
-    color: #d38247;
+    color: #4a4a4a;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
+    color:#d38247;
 }
 a {
     text-decoration: none;

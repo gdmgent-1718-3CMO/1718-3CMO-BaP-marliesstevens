@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver">
+<nav class="navbar navbar-expand-md flex-column custom-nav-ver">
 
-    <a class="navbar-brand" ><img src='images/logo.png' width=100%></a>
+    <a id="navbarlogo" class="navbar-brand navbarlogo" ><img src="{{ '/images/logo.svg' | relative_url }}" width=100%></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon fas fa-bars"></span>
     </button>
 
     <div class="collapse navbar-collapse flex-column" id="mainNavigation">
@@ -24,10 +24,16 @@
                 {{ nav-item.name }}
             </a>
     </li>
+    
     {%- endif %}
 
 {%- endfor %}
     </ul>
+
+    <div class="icon-bar">
+            <a href="#"><i class="fa fa-envelope"></i></a> 
+            <a href="#"><i class="fa fa-globe"></i></a>
+          </div>
 
     </div>
 </nav>

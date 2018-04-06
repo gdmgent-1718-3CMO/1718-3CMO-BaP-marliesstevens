@@ -5,19 +5,19 @@
 - name: HOME
   description: HOME
   # folder: pages/
-  permalink: / 
+  permalink: index.html 
   # fa-icon: icon-info
 
 - name: LOGO
   description: Logo
   #folder: pages/logo/
-  permalink: logo/
+  permalink: logo/index.html
   # fa-icon: icon-graduation-cap
 
 - name: KLEUR
   description: Kleur
   #folder: pages/kleur/
-  permalink: kleur/i
+  permalink: kleur/index.html
   # fa-icon: icon-info
 
 - name: TYPOGRAFIE
@@ -25,3 +25,10 @@
   # folder: pages/stijlgids
   permalink: /stijlgids
   # fa-icon: icon-info
+- name: DOWNLOAD
+  description: DOWNLOAD
+  #folder: pages/logo/
+  permalink: download.html
+  # fa-icon: icon-graduation-cap
+
+  
