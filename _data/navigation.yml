@@ -23,12 +23,12 @@
 - name: TYPOGRAFIE
   description: Stijlgids voor de Huistijlgids
   # folder: pages/stijlgids
-  permalink: /stijlgids
+  permalink: typografie.html
   # fa-icon: icon-info
-- name: DOWNLOAD
-  description: DOWNLOAD
+- name: TOEPASSINGEN
+  description: TOEPASSINGEN
   #folder: pages/logo/
-  permalink: download.html
+  permalink: toepassingen.html
   # fa-icon: icon-graduation-cap
 
   
