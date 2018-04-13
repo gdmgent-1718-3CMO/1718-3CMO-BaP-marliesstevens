@@ -93,10 +93,20 @@ main ol {
   }
 
 //forms 
-button, a.btn {
+.btn-secondary{
+    text-decoration: none;
+    color: $body-link;
+    width: 200px !important;
+
     
-    &:hover{}
-    &:active{}
+    &:hover{color: $body-link;
+        text-decoration: none;
+        color: white;
+    }
+    &:active{
+        background-color: $body-link;
+        color: $color-white;
+    }
     &:focus{}
 }
 input[type=text], textarea {
